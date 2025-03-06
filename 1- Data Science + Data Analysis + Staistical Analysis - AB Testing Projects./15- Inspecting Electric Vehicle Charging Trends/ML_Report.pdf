@@ -1,0 +1,56 @@
+Machine Learning Report: Electric Vehicle Charging Infrastructure Trends
+
+1. Introduction
+
+This report analyzes trends in electric vehicle (EV) charging infrastructure and sales data from the US Government's Alternative Fuels Data Center.
+The objective is to identify correlations between EV sales and the growth of public and private charging ports, providing insights for strategic planning in the EV charging network sector.
+Data includes yearly records of EV charging port installations, station locations (public and private), and EV sales.
+2. Data and Methodology
+
+Data Sources:
+private_ev_charging.csv: Private EV charging port and station data.
+public_ev_charging.csv: Public EV charging port and station data.
+ev_sales.csv: EV sales data by vehicle model and year.
+Methodology:
+Data import and inspection using Pandas.
+Data cleaning and preprocessing (handling missing values).
+Data aggregation and merging to create a comprehensive dataset.
+Visual analysis using Matplotlib and Seaborn to identify trends.
+Trend consistency check.
+The sales data was grouped by year and summed to create a total yearly sales number.
+The public and private charging data was merged, and then merged again with the total yearly sales data.
+Line plots were created to visualize the change in sales and public and private charging ports over time.
+3. Key Findings and Analysis
+
+Positive Correlation:
+A strong positive correlation exists between EV sales and the number of both public and private charging ports. As EV sales increase, there's a corresponding growth in charging infrastructure.
+This is shown in the graphs that were created, as all three lines on the graph trend upwards together.
+Public vs. Private Infrastructure:
+Public charging ports consistently outnumber private ports. This suggests significant public investment in EV charging infrastructure.
+However, private charging port growth is also evident, indicating increasing private sector involvement.
+Sales Trends:
+EV sales have shown a clear upward trend, particularly notable in recent years.
+The visualization clearly shows the increase in sales over the years.
+Trend Consistency:
+Vehicle sales and the number of private and public ports show the same trend.
+4. Visualizations
+
+EV Ports and Sales Over Time:
+Line plots illustrating the trends in private ports, public ports, and total EV sales over the years.
+This visualization highlights the correlation between sales and infrastructure growth.
+The graph clearly shows the public ports having the highest number of ports, then sales, then private ports having the lowest number. All three trend upwards together.
+5. Conclusions and Recommendations
+
+The data supports the conclusion that growth in EV sales is closely linked to the expansion of charging infrastructure.
+Continued investment in both public and private charging infrastructure is crucial to support the increasing adoption of EVs.
+Strategic planning should focus on:
+Maintaining and expanding public charging networks.
+Encouraging private sector investment in charging infrastructure.
+Ensuring infrastructure development keeps pace with EV sales growth.
+The trend is the "same" between sales and ports.
+This data shows that EV's are growing in popularity, and that the infrastructure to support them is also growing.
+6. Future Work
+
+Further analysis could explore regional variations in infrastructure growth and sales.
+Predictive modeling could be used to forecast future infrastructure needs based on sales trends.
+Analysis of the types of charging stations being installed could also be useful.
